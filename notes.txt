@@ -1,0 +1,42 @@
+for(int x = 0; x < 10; x++){
+
+
+            if(x <= 2){
+
+                buttons[x].setBounds(button_x, 300, 104, 50);
+
+                button_x += 126;
+
+                panel.add(buttons[x]);
+
+                
+
+            }else if(x > 2 && x <= 5){
+
+                buttons[x].setBounds(button_x, 360, 104, 50);
+
+                button_x += 126;
+
+                panel.add(buttons[x]);
+
+                
+
+            }else if(x > 5 && x <= 8){
+
+                buttons[x].setBounds(button_x, 320, 104, 50);
+
+                button_x += 126;
+
+                panel.add(buttons[x]);
+
+                
+
+            }
+
+            y = y + 1;
+
+            System.out.println(y);
+
+            
+
+        }
